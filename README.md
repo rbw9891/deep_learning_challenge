@@ -23,10 +23,10 @@ A nonprofit named Alphabet Soup (AS) provides funding to many organizations the 
     - Target Model Performance Achieved???
         * No. 
     - Optimization Efforts:
-        * Model 2: added more nodes to the hidden layers (26, 16), more than the rule of thumb used in the original but still less than twice the number of input nodes (another rule of thumb)
-        * Model 3: kept the node change from model 2 and added a few more application types to the other bin in hopes of reducing the affect of outliers
-        * Model 4: kept all from above and added a third hidden layer with 8 nodes and a relu activation
+        * Model 2 (Accuracy: 0.7239): added more nodes to the hidden layers (26, 16), more than the rule of thumb used in the original but still less than twice the number of input nodes (another rule of thumb)
+        * Model 3 (Accuracy: 0.7243): kept the node change from model 2 and added a few more application types to the other bin in hopes of reducing the affect of outliers
+        * Model 4 (Accuracy: 0.7211): kept all from above and added a third hidden layer with 8 nodes and a relu activation
 
 ## Summary
 
-Overall the model did not hit it's target performance, even with optimization efforts. That said, ~ 72% accuracy in predicting successful applicants is still good in the grand scheme of things. I would recommend Alphabet Soup use this model and keep iterating with it to hopefully improve performance. Something that could really help here is to talk with the folks at Alphabet Soup and learn more about these features and their importance. Once that is better understand, possibly trim some more and also handle some possible outliers within features.
+Overall the model did not hit it's target performance, even with optimization efforts. That said, ~ 72% accuracy in predicting successful applicants is still good in the grand scheme of things. I would recommend Alphabet Soup use model #3 and keep iterating with it to hopefully improve performance. Something that could really help here is to talk with the folks at Alphabet Soup and learn more about these features and their importance. Once that is better understand, possibly trim some more and also handle some possible outliers within features.
